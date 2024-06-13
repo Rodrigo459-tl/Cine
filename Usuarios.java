@@ -2,7 +2,7 @@ public class Usuarios {
 
     //ATRIBUTOS
     protected int id;
-    protected String nombreCompleto;
+    protected static String nombreCompleto;
     protected String fechaNacimiento;
     protected String direccion;
     protected String Telefono;
@@ -57,5 +57,12 @@ public class Usuarios {
     }
     public void setTelefono(String telefono) {
         Telefono = telefono;
+    }
+
+    //to String
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
     }
 }
